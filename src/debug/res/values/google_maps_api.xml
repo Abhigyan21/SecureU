@@ -16,5 +16,5 @@
     string in this file.
     Developer Key: AIzaSyCEYqiRvZhoMJa-MZoJ9l5mf_Oj0xY5SC0
     -->
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBghMXgWiuTDtwz8DrMASGbji4TNMEFCEE</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false"><insertYourAPIKeyHere></string>
 </resources>
