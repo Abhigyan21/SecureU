@@ -1,0 +1,21 @@
+End User License Agreement(EULA)
+
+By clicking on the accept button the user agrees to the following terms and conditions:-
+
+1)The software is intended to be used for personal use only and commercial use without the prior permission of the developers is strictly prohibited.
+
+2)The intellectual property of the software rests with CODELABS(the developer of this software and any violation will be treated accordingly.
+
+3)The proper working of the software depends upon a number of factors including network availability,internet availability,SMS sending capability, proper functioning of phone and other things.Improper functioning or unavailability of any of the above things will lead to improper functioning of the software.
+
+4)The receiver phone of the sent SMS must be a smart phone or a phone enabled with GPS or A-GPS to view the SMS and location correctly.It must also have other necessary capabilities necessary for receiving and viewing the SMS.
+
+5)CODELABS(the developer of this software) will not be responsible for any harm or damage done to any individual(s) or device caused by the proper or improper use of the software under any circumstances.
+
+6)Modifying the software under any circumstances is strictly prohibited.
+
+7)Distributing the software by means not approved by the developers is strictly prohibited.
+
+8)Violation of any or all of the above terms will lead to prosecution.
+
+9)The app will send SMS which will be chargeable as per service provider.

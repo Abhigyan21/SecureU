@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:key="API_KEY"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        tools:context="com.codelabs.secureu.MapsActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/get_cur_loc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="34"
+            android:background="@color/colorPrimary"
+            android:text="@string/cur_loc"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="33"
+            android:background="@color/colorPrimary"
+            android:text="@string/help"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/emergency"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="33"
+            android:background="@color/colorPrimary"
+            android:text="@string/emer"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</RelativeLayout>
+
